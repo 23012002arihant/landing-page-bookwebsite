@@ -31,7 +31,7 @@ a{
 }
 
 .img2p{
-	   color:white;
+	   color:black;
 	   font-weight:bolder;
 	   position:absolute;
 	   font-size: 20px;
@@ -56,7 +56,6 @@ a{
 	height: 600px;
     margin-right: 40px;
 	margin-left:40px;
-    margin-left: 40px;
 	margin-top:30px;
 	border-radius:15px;
 	display:grid;
@@ -99,3 +98,64 @@ button:hover{
        color:black;
        background-color:yellow;
 }	   
+
+.final-div{
+	 margin-right: 40px;
+	margin-left:40px;
+	margin-top:30px;
+}
+
+.footerp{
+	display:inline;
+}
+
+.sharing{
+	width:120px;
+}
+
+.page{
+	width:120px;
+}
+
+.network{
+	width:140px;
+}
+
+.links{
+	width:70px;
+}
+
+.shape{width:200px;
+       height:200px;
+	border-radius:50%;
+        background: rgb(56,220,222);
+background: linear-gradient(0deg, rgba(56,220,222,1) 18%, rgba(209,31,193,1) 100%);
+}
+
+.p1{
+	padding-right: 0px;
+}
+
+.c1{
+	padding-left: 0px;
+}
+
+.footer{display:block;
+         padding:8px;
+}
+
+.header-img{
+	width:100px;
+	height:50px;
+}
+
+
+.footer-div{
+	
+	display:grid;
+	grid-template-rows:1fr;
+	grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+	gap:30%;
+	width: 200px;
+    margin-left: 30px;
+}
